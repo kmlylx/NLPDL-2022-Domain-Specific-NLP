@@ -1,3 +1,5 @@
+# This file is for pre-processing data from arXiv dataset
+
 import os
 import glob
 from datasets import load_dataset
