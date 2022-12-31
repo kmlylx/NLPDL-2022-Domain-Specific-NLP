@@ -21,21 +21,6 @@ for file in files:
     print(f'Cleaning text: {file}')
     f = open(file, 'r')
     lines = f.readlines()
-     
-    # remove arxiv head
-#     idx = lines.index('X\n', 0, 50)
-#     lines = lines[idx+4:]
-    
-#     l = ['\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n', '\n']
-#     i = 0
-#     while i < len(l):
-#         print(l)
-#         if i > 0 and len(l[i]) < 3 and l[i-1][-1] == '\n':
-#             if l[i][0] != 'A' and l[i][0] != 'I':
-#                 l.pop(i)
-#                 continue
-#         i += 1
-#     print(len(l))
     
     # remove arxiv head
     while len(lines) > 0 and len(lines[0]) < 3:
