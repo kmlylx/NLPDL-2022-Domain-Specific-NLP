@@ -1,6 +1,6 @@
 ## NLPDL 2022 Final Project: Domain Specific NLP
 
-2022.12.31
+2022.12.31 by xsw
 
 ### Dataset
 
@@ -49,4 +49,4 @@ python scripts/train.py \
 
 ### Checkpoint
 
-The best checkpoint is uploaded on [PKU disk](). Feel free to download!
+The best checkpoint is uploaded on [PKU disk](https://disk.pku.edu.cn:443/link/09A4CE78843B36C0E918462B43D32D73). Feel free to download!
